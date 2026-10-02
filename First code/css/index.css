@@ -1,0 +1,22 @@
+    body{
+  background: #09d8e549;
+  font-family: Trebuchet MS;
+}
+
+.container{
+  background: linear-gradient(360deg, #ce6bff, #ffffff, #00ffff);
+  width: 720px;
+  height: 360px;
+  border: solid 1px #000;
+  corner-shape: scoop;
+  border-radius: 20px;
+}
+
+.heading{
+  inset: 10px;
+  margin-top: 0;
+  padding-top: 0;
+  background: #ce6bff;
+  height: 40px;
+  color: #00ffff;
+}

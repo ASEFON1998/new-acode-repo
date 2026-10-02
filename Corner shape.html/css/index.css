@@ -1,0 +1,65 @@
+body{
+  background: #000000a8;
+}
+
+.box{
+  width: 250px;
+  height: 180px;
+  border: 2px solid #578021;
+    margin: 20px;
+}
+.box:last-child{
+  width: 350px;
+}
+h1 {
+  text-shadow: 2px 2px 5px white;
+  margin: 0;
+  padding: 0 20px;
+}
+p{
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+  font-stretch: extra-expanded;
+}
+p::first-letter{
+  font-weight: 500;
+  font-family: Times New Roman;
+  font-size: 35px;
+}
+#one{
+  background: #bea306;
+  border-radius: 20px;
+    corner-shape: scoop;
+  }
+  #two{
+  background: #882626;
+  border-radius: 20px;
+    corner-shape: notch;
+  }
+  #three{
+    background: #b846da;
+  border-radius: 20px;
+    corner-shape: bevel;
+  }
+  #four{
+    background: #0f53b6;
+  border-radius: 200px;
+    corner-shape: squircle;
+  }
+  #five{
+    background: #8d5d0d;
+  border-radius: 20px;
+    corner-shape: square;
+  }
+  #six{
+    background: #24f033;
+  border-radius: 20px;
+    corner-shape: round;
+  }
+  #seven{
+    background: #0f53b6;
+  border-radius: 100px;
+    corner-shape: round bevel bevel round;
+  }

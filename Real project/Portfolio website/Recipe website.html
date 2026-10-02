@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+/* Header */
+header {
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Recipe Card */
+.recipe-card {
+    background: white;
+    max-width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+/* Image */
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Text */
+.recipe-card h2 {
+    margin: 15px;
+}
+
+.recipe-card p {
+    margin: 0 15px 10px;
+    color: gray;
+}
+
+/* Lists */
+.recipe-card h3 {
+    margin: 10px 15px;
+}
+
+ul, ol {
+    margin: 0 30px 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+</style>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🍲 My Recipe Book</h1>
+    </header>
+
+    <!-- Recipe Card -->
+    <div class="container">
+        <div class="recipe-card">
+
+            <!-- Image -->
+            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Jollof Rice">
+
+            <!-- Title -->
+            <h2>Jollof Rice</h2>
+
+            <!-- Description -->
+            <p>A delicious West African dish loved by many.</p>
+
+            <!-- Ingredients -->
+            <h3>Ingredients</h3>
+            <ul>
+                <li>2 cups rice</li>
+                <li>Tomatoes</li>
+                <li>Onions</li>
+                <li>Spices</li>
+                <li>Chicken or fish</li>
+            </ul>
+
+            <!-- Steps -->
+            <h3>Preparation Steps</h3>
+            <ol>
+                <li>Wash the rice</li>
+                <li>Prepare the tomato sauce</li>
+                <li>Cook the rice with sauce</li>
+                <li>Simmer until done</li>
+            </ol>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Recipe Website</p>
+    </footer>
+
+</body>
+</html>

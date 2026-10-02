@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Hero container */
+.hero {
+    perspective: 1000px; /* important for 3D */
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+
+    /* 3D effect */
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* 3D Hover Animation */
+.card:hover {
+    transform: rotateY(15deg) rotateX(10deg) scale(1.05);
+}
+
+/* Text */
+.card h1 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #667eea;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+</style>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="card">
+            <h1>Welcome to My Website</h1>
+            <p>Learn HTML & CSS with modern design</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+</body>
+</html>
